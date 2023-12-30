@@ -1,0 +1,39 @@
+{
+  "name": "use-query-set-state",
+  "version": "1.0.0",
+  "description": "A custom React hook for managing and updating query parameters in the URL.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "keywords": [
+    "react",
+    "react-custom-hooks",
+    "hooks",
+    "query-parameters",
+    "url",
+    "state-management"
+  ],
+  "author": {
+    "name": "Jahangir Khan",
+    "email": "jkhan.ece@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkhan-18/use-query-set-state"
+  },
+  "bugs": {
+    "url": "https://github.com/jkhan-18/use-query-set-state/issues"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "rollup": "^4.9.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
